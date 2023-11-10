@@ -1,0 +1,135 @@
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.headeri{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.catalog{
+    color:lightseagreen;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+ul li{
+    padding: 10px;
+
+}
+.bgfoto{
+    display: flex;
+    justify-content: center;
+    background-image: url("hero.jpg");
+    height: 200px;
+    background-size:cover;
+    background-position:center;
+    align-items: center;
+}
+.butoni_bg{
+    background-color: teal;
+    border: none;
+    height: 25px;
+    width: 40px;
+}
+.latestvideo{
+    display: flex;
+    justify-content: space-between;
+    color: lightseagreen;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fotografit{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 270px;
+    margin: 5px;
+}
+.views_date{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    justify-content: space-between;
+    font-family:'Times New Roman', Times, serif;
+}
+.permifooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn_prev_next{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: none;
+    width: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.btn{
+    border: none;
+    padding: 10px;
+    margin: 7px;
+
+}
+footer{
+    background-color: rgb(230, 226, 226);
+    margin-top: 30px;
+}
+.f{
+    color: lightseagreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ff{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    height: 30px;
+    width: 30px;
+}
+.footermain{
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footerleft{
+    display:flex;
+    flex-wrap: wrap;
+    width:300px;
+}
+.footerright{
+    margin-left: 150px;
+}
+.fundi{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
